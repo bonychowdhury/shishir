@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user Amazon login",
+        "description": "",
+        "id": "this-is-an-amazon-login-functionality;verify-user-amazon-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7210761500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch Application Amazon URL",
+            "match": {
+              "location": "amazonlogin.launch_Application_Amazon_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 697953800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Amazon Login link",
+            "match": {
+              "location": "amazonlogin.click_on_Amazon_Login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3092814200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Amazon email",
+            "match": {
+              "location": "amazonlogin.enter_Amazon_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 766547200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on continue",
+            "match": {
+              "location": "amazonlogin.click_on_continue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61962300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Amazon Password",
+            "match": {
+              "location": "amazonlogin.enter_Amazon_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92840100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Amazon Login button",
+            "match": {
+              "location": "amazonlogin.click_on_Amazon_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5159778300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify Amazon login successfully",
+            "match": {
+              "location": "amazonlogin.verify_Amazon_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@bona"
+          }
+        ]
+      }
+    ],
+    "name": "This is an amazon login functionality",
+    "description": "",
+    "id": "this-is-an-amazon-login-functionality",
+    "keyword": "Feature",
+    "uri": "amazonlogin.feature"
+  }
+]
